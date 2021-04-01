@@ -2,7 +2,7 @@ import numpy as np
 import nltk
 import re
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
+# from nltk.stem import WordNetLemmatizer
 STOPWORDS = stopwords.words('english')
 
 # Dictionary mapping word contractions to their full words
@@ -80,7 +80,7 @@ def preprocess_article(article):
             word = word.lower()
             
             # Lemmatize the word
-            word = lemmatizer.lemmatize(word, pos='v')
+            # word = lemmatizer.lemmatize(word, pos='v')
         
             if word != '':
                 res_article.append(word)
