@@ -52,7 +52,7 @@ contractions = {
 # Remove punctutation marks, stopwords, emojis, urls, convert to lowercase, expand contractions 
 def preprocess_article(article):
     res_article = []
-    lemmatizer = WordNetLemmatizer()
+    # lemmatizer = WordNetLemmatizer()
     
     for word in article.split():        
         
