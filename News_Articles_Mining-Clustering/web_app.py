@@ -5,8 +5,14 @@ import pickle
 from preprocessing_utils import *
 
 st.write(""" 
-    # Cluster News Articles
+    # Web Content Mining 
 """)
+
+st.write(""" 
+    A web based platform that displays a cluster and the urls of related stories in that cluster, given a selected categories based 
+    on 4 online newspapers
+""")
+
 
 articles = pd.read_csv('News_Articles_Mining-Clustering/clustered_articles.csv')
 
