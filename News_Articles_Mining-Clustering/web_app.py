@@ -8,7 +8,7 @@ st.write("""
     # Cluster News Articles
 """)
 
-articles = pd.read_csv('Newspapers_Mining-Clustering/clustered_articles.csv')
+articles = pd.read_csv('News_Articles_Mining-Clustering/clustered_articles.csv')
 
 # Get user input
 news_article = st.text_input("Paste a news article: ")
